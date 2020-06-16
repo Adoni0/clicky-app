@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  /* background-image: url('https://th.bing.com/th/id/OIP.7nK95wNMErJ1fLBjpPpbWgHaEK?w=283&h=180&c=7&o=5&dpr=2&pid=1.7'); */
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1c87c9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  color: #ffffff;
+}
+
