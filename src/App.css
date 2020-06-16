@@ -4,6 +4,10 @@
 
 }
 
+body{
+  background-color: #98aef4;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #d4418e;
@@ -18,11 +22,124 @@
   display: block;
   color: #eeeeee;
   text-align: center;
-  padding: 15px 18px;
+  padding: 10px 5px;
   text-decoration: none;
   font-size: 18px;
 }
 .navbar a:hover {
   color: #ffffff;
 }
+
+.card{
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  border: 5px solid #f1f1f1;
+}
+
+.card:hover{
+  border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+        cursor: pointer;
+}
+
+.left{
+  margin-left: auto;
+}
+
+.right{
+  margin-right: auto;
+}
+
+.center{
+  margin: auto;
+}
+
+#cleaveland{
+  max-height: 360px;
+  overflow: hidden;
+}
+#cleave{
+  margin-top: -40%;
+}
+
+#stewie1{
+  max-height: 360px;
+  overflow: hidden;
+}
+
+#stew1{
+  margin-top: -25%;
+}
+
+#herbert{
+  max-height: 360px;
+  overflow: hidden;
+}
+
+#carter{
+  height: 360px;
+}
+
+#quagmire{
+  max-height: 360px;
+  overflow: hidden;
+}
+
+#quag{
+  margin-top: -33%;
+}
+
+#chris{
+  max-height: 360px;
+  overflow: hidden;
+}
+#chrs{
+  margin-top: -23%;
+}
+#meg{
+  max-height: 360px;
+  overflow: hidden;
+}
+#megatron{
+  margin-top: -20%;
+}
+#brian{
+  max-height: 360px;
+  overflow: hidden;
+}
+#bri{
+  margin-top: -20%;
+}
+
+#lois{
+  max-height: 360px;
+  overflow: hidden;
+}
+#lis{
+  margin-top: -17%;
+}
+
+#stewie2{
+  max-height: 360px;
+  overflow: hidden;
+}
+#stew2{
+  margin-top: -20%;
+}
+
+#peter{
+  max-height: 360px;
+  overflow: hidden;
+}
+#pete{
+  margin-top: -3%;
+}
+
+
+
+
+
 
