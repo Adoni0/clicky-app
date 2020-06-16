@@ -8,11 +8,9 @@ function App() {
     <div className="App">
 
       <nav class="navbar">
-        <a href="#books">Books</a>
-        <a href="#quizzes">Quizzes</a>
-        <a href="#snippets">Snippets</a>
-        <a href="#tools">Tools</a>
-        <a href="#stringfunctions">String Functions</a>
+        <a>Clicky Game</a>
+        <a>You Guessed Correctly!</a>
+        <a>Score: | Top Score: </a>
       </nav>
 
       <div className="jumbotron .jumbotron-fluid .container-fluid ">
@@ -22,7 +20,81 @@ function App() {
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
-    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..."/>
+  </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..."/>
+  </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..."/>
+  </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+              <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..."/>
+  </div>
+              </div>
+
+            </div>
+
+            </div>
   );
 }
 
