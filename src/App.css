@@ -8,6 +8,10 @@ body{
   background-color: #98aef4;
 }
 
+.jumbotron-fluid{
+  background-image: url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg');
+}
+
 .navbar {
   overflow: hidden;
   background-color: #d4418e;
@@ -31,8 +35,8 @@ body{
 }
 
 .card{
-  width: auto;
-  height: auto;
+  width: 170;
+  height: 170;
   border-radius: 5px;
   border: 5px solid #f1f1f1;
 }
@@ -58,7 +62,9 @@ body{
 }
 
 #cleaveland{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 #cleave{
@@ -66,7 +72,9 @@ body{
 }
 
 #stewie1{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 
@@ -75,16 +83,29 @@ body{
 }
 
 #herbert{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 
 #carter{
-  height: 360px;
+  /* height: 360px; */
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+#joe{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
 }
 
 #quagmire{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 
@@ -93,21 +114,27 @@ body{
 }
 
 #chris{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 #chrs{
   margin-top: -23%;
 }
 #meg{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 #megatron{
   margin-top: -20%;
 }
 #brian{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 #bri{
@@ -115,7 +142,9 @@ body{
 }
 
 #lois{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 #lis{
@@ -123,7 +152,9 @@ body{
 }
 
 #stewie2{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 #stew2{
@@ -131,7 +162,9 @@ body{
 }
 
 #peter{
-  max-height: 360px;
+  /* max-height: 360px; */
+  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
 #pete{
@@ -139,7 +172,15 @@ body{
 }
 
 
-
+@media screen and (min-width: 768px){
+  .card{
+    height: 150px;
+    width: 150px;
+  }
+  .navbar{
+    padding: 5px 5px;
+  }
+}
 
 
 

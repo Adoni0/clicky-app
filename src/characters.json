@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "stewie1",
+        "src": "https://www.liveabout.com/thmb/AZq8udcF7H9mN1-TSdwJfRoqxOc=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/familyGuy__Stewie_para_72-56a00a5f3df78cafda9fc0cc.jpg"
+    },
+    {
+        "id": 2,
+        "name": "herbert",
+        "src": "https://sottai.files.wordpress.com/2010/04/herbert-family-guy.jpg"
+    },
+    {
+        "id": 3,
+        "name": "carter",
+        "src": "https://i.pinimg.com/originals/b7/5e/bb/b75ebba8e88fc3c338a82bb1876643e9.jpg"
+    },
+    {
+        "id": 4,
+        "name": "joe",
+        "src": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-family-guy-Patrick-Warburton.jpg"
+    },
+    {
+        "id": 5,
+        "name": "cleaveland",
+        "src": "https://www.liveabout.com/thmb/9hDbpua-5jQG7pH_c-16yF5H0F4=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cleveland_v2Fb080309-56a00cf55f9b58eba4aead78.jpg"
+    },
+    {
+        "id": 6,
+        "name": "quagmire",
+        "src": "https://www.liveabout.com/thmb/1k4LHSdZPiQNnbxMXT_xcXwRX24=/475x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuyQuagmireArt_v1fa-57a96bf33df78cf459bb222a.jpg"
+    },
+    {
+        "id": 7,
+        "name": "chris",
+        "src": "https://www.liveabout.com/thmb/D6_8tRfI1EJ2UHXQYKY5UoNRUUI=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Chris_f-56a00aff3df78cafda9fc740.jpg"
+    },
+    {
+        "id": 8,
+        "name": "meg",
+        "src": "https://www.liveabout.com/thmb/_q3WDsOk_KSBGoS8sh2LU2-FFhM=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Meg_f-56a00b005f9b58eba4aea214.jpg" 
+    },
+    {
+        "id": 9,
+        "name": "brian",
+        "src": "https://www.liveabout.com/thmb/BZpbhDgZrMxOUdqqWArsayPicz8=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Brian_f-56a00b003df78cafda9fc74f.jpg"
+    },
+    {
+        "id": 10,
+        "name": "peter",
+        "src": "https://img00.deviantart.net/9cd2/i/2015/217/7/0/peter_griffin__family_guy__32_by_frasier_and_niles-d94aejw.jpg"
+    },
+    {
+        "id": 11,
+        "name": "lois",
+        "src": "https://www.liveabout.com/thmb/qL9NuJ5lmmRzMyFngIz9SyYjSiw=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Lois_f-56a00b003df78cafda9fc743.jpg"
+    },
+    {
+        "id": 12,
+        "name": "stewie2",
+        "src": "https://www.liveabout.com/thmb/fc5QH6AXdNtQRwuaQevxSSiwp1k=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Stewie1_f-56a00b003df78cafda9fc746.jpg"
+    }
+
+    
+]
