@@ -172,7 +172,7 @@ body{
 }
 
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
   .card{
     height: 150px;
     width: 150px;
@@ -180,7 +180,7 @@ body{
   .navbar{
     padding: 5px 5px;
   }
-}
+} */
 
 
 

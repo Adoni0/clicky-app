@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import characters from '../characters.json'
 import Score from './Score'
 import Card from './Card'
+import Jumbotron from './Jumbotron'
 
 export default class Home extends Component {
 
@@ -13,17 +14,8 @@ export default class Home extends Component {
         return (
             <div>
               <Score />
+              <Jumbotron />
 
-      <div className="jumbotron .jumbotron-fluid .container-fluid ">
-        <h1 className="display-4">Clicky Game!</h1>
-        <p className="lead"><i>Family Guy Edition</i></p>
-        <hr className="my-4"></hr>
-        <p>Click on an image to earn points, but don't click on the same image twice!</p>
-      </div>
-
-
-      
-            <div>
                 {this.state.characters.map(char => {
                     return <Card 
                     img = {char.src}
@@ -32,7 +24,7 @@ export default class Home extends Component {
             </div>
           
 
-        {/* <div className="col mb-4">
+        /* <div className="col mb-4">
           <div className="card left" id='stewie1'>
             <img src="https://www.liveabout.com/thmb/AZq8udcF7H9mN1-TSdwJfRoqxOc=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/familyGuy__Stewie_para_72-56a00a5f3df78cafda9fc0cc.jpg" id='stew1' className="card-img-top" alt="..." />
           </div>
@@ -99,9 +91,7 @@ export default class Home extends Component {
           <div className="card right" id='stewie2'>
             <img src="https://www.liveabout.com/thmb/fc5QH6AXdNtQRwuaQevxSSiwp1k=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Stewie1_f-56a00b003df78cafda9fc746.jpg" id='stew2' className="card-img-top" alt="..." />
           </div>
-        </div> */}
-
-      </div>
+        </div> */
 
             
         )
