@@ -1,12 +1,18 @@
 import React from 'react'
 
 export default function Score(props) {
+
+    // var score = 0;
+    // var topScore = 0;
+    // var guessedCorrect = "You Guessed Correctly!";
+    // var guessedIncorrect ="You Guessed Incorrectly!";
+
     return (
         <div>
             <nav className="navbar">
-                <a>Clicky Game</a>
-                <a>You Guessed Correctly!</a>
-                <a>Score: | Top Score: </a>
+                <a href='#'>Clicky Game</a>
+                <a href='#'>You Guessed Correctly!</a>
+                <a href='#'>Score: <span>{props.value}</span> | Top Score: <span>{props.top}</span></a>
             </nav>
         </div>
     )
