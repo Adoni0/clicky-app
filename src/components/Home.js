@@ -35,15 +35,11 @@ export default class Home extends Component {
 
     }
 
-    showGuessResult = () => {
-        var correctGuess = this.state.guessedCorrect;
-        var wrongGuess = this.state.guessedIncorrect;
-
         // var arr = [];
         //if image is clicked push id# to array
         //if image clicked id# is already in array then display wrongGuess and reset score/shuffle cards
         //if image clicked id# is not in array then call increment score function
-    }
+    
 
     randomizeImages = () => {
 
@@ -70,6 +66,7 @@ export default class Home extends Component {
                     {this.state.characters.map(char => {
                         return <Card
                             img={char.src}
+                            key={char.id}
                             id={char.id}
                             shuffle={this.randomizeImages}
                         />

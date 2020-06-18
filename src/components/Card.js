@@ -1,5 +1,4 @@
 import React from 'react'
-import ShuffleCards from './ShuffleCards'
 
 export default function Card(props) {
 
