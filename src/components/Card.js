@@ -8,7 +8,7 @@ export default function Card(props) {
             
               <div className="col mb-4">
               <div className="card">
-                <img src={props.img} onClick={props.update} className="card-img-top" alt="..." />
+                <img src={props.img} onClick={props.shuffle} className="card-img-top" alt="..." />
               </div>
             </div>
           
