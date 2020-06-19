@@ -32,10 +32,11 @@ body{
 }
 
 .card{
-  width: 170;
-  height: 170;
-  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
   border: 5px solid #f1f1f1;
+  padding-top: 5px;
 }
 
 .card:hover{
@@ -46,127 +47,6 @@ body{
         cursor: pointer;
 }
 
-.left{
-  margin-left: auto;
-}
-
-.right{
-  margin-right: auto;
-}
-
-.center{
-  margin: auto;
-}
-
-#cleaveland{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-#cleave{
-  margin-top: -40%;
-}
-
-#stewie1{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-
-#stew1{
-  margin-top: -25%;
-}
-
-#herbert{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-
-#carter{
-  /* height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-
-#joe{
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-
-#quagmire{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-
-#quag{
-  margin-top: -33%;
-}
-
-#chris{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-#chrs{
-  margin-top: -23%;
-}
-#meg{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-#megatron{
-  margin-top: -20%;
-}
-#brian{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-#bri{
-  margin-top: -20%;
-}
-
-#lois{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-#lis{
-  margin-top: -17%;
-}
-
-#stewie2{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-#stew2{
-  margin-top: -20%;
-}
-
-#peter{
-  /* max-height: 360px; */
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-}
-#pete{
-  margin-top: -3%;
-}
 
 
 /* @media screen and (min-width: 768px){

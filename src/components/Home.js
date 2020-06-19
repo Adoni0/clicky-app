@@ -62,7 +62,7 @@ export default class Home extends Component {
                     guess={this.state.guessed} />
                 <Jumbotron />
 
-                <div className="row row-cols-1 row-cols-md-3">
+                <div className="row row-cols-1 row-cols-md-3 card-columns">
                     {this.state.characters.map(char => {
                         return <Card
                             img={char.src}
