@@ -28,30 +28,61 @@ export default class Home extends Component {
     }
 
     resetGame = () => {
-        this.characterId.length = 0;
-        this.setState({ score: 0 }, { guessed: 'Incorrectly!' })
+        var newArr = this.state.characterId.splice(0, this.state.characterId.length);
+        this.setState({ score: 0 }, { guessed: 'Incorrectly!' }, { characterId: newArr })
         //shuffle card images
         //guessedIncorrect
 
     }
 
-        // var arr = [];
-        //if image is clicked push id# to array
-        //if image clicked id# is already in array then display wrongGuess and reset score/shuffle cards
-        //if image clicked id# is not in array then call increment score function
-    
+    // var arr = [];
+    //if image is clicked push id# to array
+    //if image clicked id# is already in array then display wrongGuess and reset score/shuffle cards
+    //if image clicked id# is not in array then call increment score function
 
-    randomizeImages = () => {
 
-        for (var i = 0; i < this.state.characterId.length; i++) {
-            if (this.state.characterId[i] === Card.id) {//guesses wrong
+    //shuffle array
+    // function shuffle(array) {
+    //     var currentIndex = array.length, temporaryValue, randomIndex;
+
+    //     // While there remain elements to shuffle...
+    //     while (0 !== currentIndex) {
+
+    //       // Pick a remaining element...
+    //       randomIndex = Math.floor(Math.random() * currentIndex);
+    //       currentIndex -= 1;
+
+    //       // And swap it with the current element.
+    //       temporaryValue = array[currentIndex];
+    //       array[currentIndex] = array[randomIndex];
+    //       array[randomIndex] = temporaryValue;
+    //     }
+
+    //     return array;
+    //   }
+
+    // Used like so
+    //   var arr = [2, 11, 37, 42];
+    //   shuffle(arr);
+    //   console.log(arr);
+
+    randomizeImages = id => {
+        // alert(this.state.characterId.length);
+        for (var i = -1; i < this.state.characterId.length; i++) {
+            // alert('enter for loop')
+            if (this.state.characterId[i] === id) {//guesses wrong
+                // alert('game about to be reset')
                 this.resetGame();
-            } else if (this.state.characterId[i] !== Card.id) {//guesses right
-                this.state.characterId.push(Card.id);
+            } else if (this.state.characterId[i] !== id) {//guesses right
+                // alert('score increased')
+                this.state.characterId.push(id);
                 this.incrementScore();
                 this.setState({ guessed: 'Correctly!' })
+            } else {
+                alert('nothing was true')
             }
         }
+
     }
 
     render() {
@@ -68,7 +99,7 @@ export default class Home extends Component {
                             img={char.src}
                             key={char.id}
                             id={char.id}
-                            shuffle={this.randomizeImages}
+                            randomizeImages={this.randomizeImages}
                         />
                     })}
                 </div>
