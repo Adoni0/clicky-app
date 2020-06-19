@@ -7,7 +7,7 @@ export default function Card(props) {
             
               <div className="col mb-4">
               <div className="card">
-                <img src={props.img} onClick={() => props.randomizeImages(props.id)} className="card-img-top" alt="..." />
+                <img src={props.img} onClick={() => props.handleScoring(props.id)} className="card-img-top" alt="..." />
               </div>
             </div>
           
