@@ -10,19 +10,22 @@ export default class Home extends Component {
         characters,
         score: 0,
         topScore: 0,
-        // guessedCorrect: "Correctly!",
-        // guessedIncorrect: "Incorrectly!",
         guessed: '',
 
-        // characterId: []
+        characterId: []
     }
 
-    characterId = [13];
-
-    incrementScore = () => {
+    incrementScore = (id) => {
         var newScore = this.state.score + 1;
-        this.setState({ score: newScore });
-        this.setState({ guessed: 'Correctly' });
+        // this.setState({ score: newScore });
+        // this.setState({ guessed: 'You Guessed Correctly!' });
+
+        this.setState({
+            score: newScore,
+            guessed: 'You Guessed Correctly!'
+        });
+
+        this.state.characterId.push(id)
 
         var highScore = this.state.topScore;
         if (newScore >= highScore) {
@@ -31,65 +34,37 @@ export default class Home extends Component {
     }
 
     resetGame = () => {
-        this.characterId = [13];
-        this.setState({ guessed: 'Incorrectly!' });
-        // this.setState({ characterId: newArr });
+        this.setState({ characterId: [] });
+        this.setState({ guessed: 'You Guessed Incorrectly!' });
         this.setState({ score: 0 });
-        //{ guessed: 'Incorrectly!' }
+        // this.setState({ score: 0 });
+
         //shuffle card images
 
     }
 
 
-    handleShuffle = characterId => {
-        //shuffle array
-    
-        var currentIndex = characterId.length, temporaryValue, randomIndex;
+
+
+    handleScoring = id => {
+        var currentIndex = characters.length, temporaryValue, randomIndex;
 
         // While there remain elements to shuffle...
         while (0 !== currentIndex) {
 
-          // Pick a remaining element...
-          randomIndex = Math.floor(Math.random() * currentIndex);
-          currentIndex -= 1;
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
 
-          // And swap it with the current element.
-          temporaryValue = characterId[currentIndex];
-          characterId[currentIndex] = characterId[randomIndex];
-          characterId[randomIndex] = temporaryValue;
+            // And swap it with the current element.
+            temporaryValue = characters[currentIndex];
+            characters[currentIndex] = characters[randomIndex];
+            characters[randomIndex] = temporaryValue;
         }
 
-        console.log(characterId);
-      
-    }
-    
-
-
-    handleScoring = id => {
-
-        // this.state.characterId.push(id);
-        // this.characterId.push(id);
-        // console.log(this.characterId);
+        this.setState({ characters });
         
-        
-        //  this.setState({ score: this.state.score + 1 });
-        // this.incrementScore();
-        for (var i = 0; i < this.characterId.length; i++) {
-
-            if (this.characterId[i] === id) {//guesses wrong
-                alert('if statement');
-                // this.setState({ guessed: 'Incorrectly!' });
-                this.resetGame();
-            } else if (this.characterId[i] !== id) {//guesses right
-                alert('else if statement');
-                this.characterId.push(id);
-                this.incrementScore();
-                // this.setState({ guessed: 'Correctly!' })
-            } else {
-                alert('nothing was true')
-            }
-        }
-        console.log(this.characterId);
+        this.state.characterId.includes(id) ? this.resetGame() : this.incrementScore(id);
     }
 
     render() {
@@ -107,12 +82,13 @@ export default class Home extends Component {
                             key={char.id}
                             id={char.id}
                             handleScoring={this.handleScoring}
+                            // onClick={this.handleShuffle}
                         />
                     })}
                 </div>
             </div>
-
-
         )
+        
     }
+
 }

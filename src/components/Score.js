@@ -11,7 +11,7 @@ export default function Score(props) {
         <div>
             <nav className="navbar">
                 <a href='#'>Clicky Game</a>
-                <a href='#'>You Guessed {props.guess}</a>
+                <a href='#'>{props.guess}</a>
                 <a href='#'>Score: <span>{props.value}</span> | Top Score: <span>{props.top}</span></a>
             </nav>
         </div>
