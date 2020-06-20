@@ -17,8 +17,6 @@ export default class Home extends Component {
 
     incrementScore = (id) => {
         var newScore = this.state.score + 1;
-        // this.setState({ score: newScore });
-        // this.setState({ guessed: 'You Guessed Correctly!' });
 
         this.setState({
             score: newScore,
@@ -37,9 +35,6 @@ export default class Home extends Component {
         this.setState({ characterId: [] });
         this.setState({ guessed: 'You Guessed Incorrectly!' });
         this.setState({ score: 0 });
-        // this.setState({ score: 0 });
-
-        //shuffle card images
 
     }
 
@@ -82,7 +77,6 @@ export default class Home extends Component {
                             key={char.id}
                             id={char.id}
                             handleScoring={this.handleScoring}
-                            // onClick={this.handleShuffle}
                         />
                     })}
                 </div>
