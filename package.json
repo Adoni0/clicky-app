@@ -1,8 +1,8 @@
 {
+  "homepage":"https://adoni0.github.io/clicky-app",
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://adoni0.github.io/clicky-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
